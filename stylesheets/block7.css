@@ -1,0 +1,28 @@
+.block7 {
+    padding: 5vw 2vw 5vw 9vw;
+    position: relative;
+    background-color: #f0f0f4;
+}
+
+.block7 p {
+    margin-right: 9vw;
+    margin-top: 4px;
+}
+
+.block7 h2 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2vw;
+    font-size: 50px;
+    font-family: 'Teko', sans-serif;
+}
+
+.block7 h3 {
+    margin: 0;
+    font-size: 26px;
+    color: rgb(55, 87, 250);
+}
+
+.block7 .i1 {
+    margin: 1vw 5vw 2vw 0vw;
+}

@@ -1,0 +1,25 @@
+.block6 {
+    padding: 5vw 2vw 4vw 9vw;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.block6 h2 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2vw;
+    font-size: 50px;
+    font-family: 'Teko', sans-serif;
+}
+
+.block6 p.degree {
+    font-family: 'Teko', sans-serif;
+    font-size: 32px;
+    color: rgb(55, 87, 250);
+    padding: 0;
+    margin: 0;
+}
+
+.block6 .in {
+    margin-bottom: 25px;
+}

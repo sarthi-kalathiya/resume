@@ -1,0 +1,110 @@
+.block1 {
+    display: flex;
+    padding-top: 47px;
+}
+
+#over img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.proimg {
+    margin: 0;
+    padding: 0;
+    width: 45vw;
+    position: relative;
+    text-align: right;
+}
+
+.is {
+    margin: 0;
+    margin: auto;
+    padding: 0;
+    scale: 1;
+    max-width: 100%;
+    max-height: 100vw;
+}
+
+.b11 {
+    width: 46vw;
+    margin-top: 4.52vw;
+}
+
+.b11 span {
+    color: rgb(55, 87, 250);
+}
+
+.name {
+    height: 75%;
+}
+
+.name h1 {
+    position: relative;
+    top: 5%;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 28px;
+}
+
+.name p {
+    padding: 4vw 0 0 0;
+    display: block;
+    width: 290px;
+    font-size: 28px;
+    z-index: 100;
+}
+
+.email a {
+    display: flex;
+    height: 37px;
+    width: 100px;
+    background-color: rgb(55, 87, 250);
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(55, 87, 250);
+
+}
+
+.email a:hover {
+    color: rgb(55, 87, 250);
+    background-color: white;
+}
+
+.b11::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:483px) {
+    .proimg {
+        display: block;
+        margin-top: 160px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .proimg {
+        display: block;
+        width: 100%;
+    }
+
+    .block1 {
+        display: block;
+    }
+
+    .b11 {
+        display: block;
+        width: 100%;
+    }
+
+    .b11 .name,
+    .b11 .email {
+        padding-left: 6vw;
+    }
+
+}

@@ -1,0 +1,60 @@
+.block3 {
+    padding: 5vw 2vw 4vw 9vw;
+    position: relative;
+    background-color: #f0f0f4;
+}
+
+.block3 h2{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2vw;
+    font-size: 50px;
+    font-family: 'Teko', sans-serif;
+}
+
+.block3 h3 {
+    margin: 0;
+    font-size: 26px;
+    color: rgb(55, 87, 250);
+}
+
+.block3 .upper {
+    margin-bottom: 60px;
+}
+
+.block3 .first {
+    width: 30%;
+    margin-right: 20vw;
+    display: inline-block;
+}
+
+.block3 .second {
+    width: 30%;
+    display: inline-block;
+}
+
+@media screen and (max-width:885px) {
+    .block3 .first {
+        display: block;
+        width: 100%;
+        margin-right: 10vw;
+        margin-bottom: 20px;
+    }
+
+    .block3 .upper {
+
+        margin-bottom: 0px;
+    }
+
+    .block3 p {
+        margin-right: 10vw;
+        margin-top: 4px;
+    }
+
+    .block3 .second {
+        display: block;
+        width: 100%;
+        margin-right: 10vw;
+        margin-bottom: 20px;
+    }
+}

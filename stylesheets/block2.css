@@ -1,0 +1,79 @@
+.block2 {
+    color: white;
+    position: relative;
+    padding: 5vw 2vw 80px 9vw;
+    margin-top: 6.8vw;
+    background: rgb(55, 87, 250);
+}
+
+.contact h2 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2vw;
+    font-size: 50px;
+    font-family: 'Teko', sans-serif;
+}
+
+.block2 h2 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1vw;
+    font-size: 50px;
+    font-family: 'Teko', sans-serif;
+}
+
+.block2 .about {
+    margin-right: 10vw;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.block2 .about ul {
+    padding-left: 0%;
+}
+
+.block2 .about li {
+    padding: 0 0 17px 0;
+}
+
+.block2 .about a {
+    text-decoration: none;
+    color: white;
+}
+
+.block2 .linkedin {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 40px;
+}
+
+
+.block2 .linkedin a {
+    display: flex;
+    height: 37px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+.block2 .linkedin a:hover {
+    color: white;
+    background-color: rgb(55, 87, 250);
+}
+
+@media screen and (max-width:628px) {
+
+    .block2 .about {
+        margin-bottom: 0px;
+    }
+
+    .block2 .about ul {
+        margin: 0;
+    }
+}

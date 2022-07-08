@@ -1,0 +1,48 @@
+body {
+    font-family: 'Open Sans', 'EB Garamond', Verdana, Tahoma, sans-serif, Arial;
+    margin: 0;
+    text-align: justify;
+    text-align-last: left;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 20;
+}
+
+ul.topnav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #282828;
+    opacity: 0.95;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 1.5vw;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+@media screen and (max-width: 483px) {
+    ul.topnav li {
+        float: none;
+    }
+}
