@@ -1,214 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- title -->
-    <title>Sarthi kalathiya</title>
+    <title>Sarthi Kalathiya</title>
 
     <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="images/faviconport.png">
+    <link rel="icon" type="image/x-icon" href="images/faviconport.png" />
 
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@436&family=Open+Sans:wdth,wght@90.1,338&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@436&family=Open+Sans:wdth,wght@90.1,338&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- style sheets -->
-    <link rel="stylesheet" href="stylesheets/top.css">
-    <link rel="stylesheet" href="stylesheets/block1.css">
-    <link rel="stylesheet" href="stylesheets/block2.css">
-    <link rel="stylesheet" href="stylesheets/block3.css">
-    <link rel="stylesheet" href="stylesheets/block5.css">
-    <link rel="stylesheet" href="stylesheets/block6.css">
-    <link rel="stylesheet" href="stylesheets/block7.css">
-    <link rel="stylesheet" href="stylesheets/block8.css">
+    <link rel="stylesheet" href="stylesheets/top.css" />
+    <link rel="stylesheet" href="stylesheets/block1.css" />
+    <link rel="stylesheet" href="stylesheets/block2.css" />
+    <link rel="stylesheet" href="stylesheets/block3.css" />
+    <link rel="stylesheet" href="stylesheets/block5.css" />
+    <link rel="stylesheet" href="stylesheets/block6.css" />
+    <link rel="stylesheet" href="stylesheets/block7.css" />
+    <link rel="stylesheet" href="stylesheets/block8.css" />
 
     <!-- js -->
     <script src="js/text-chang.js"></script>
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"
+      integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA="
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <!-- top navigation bar -->
     <header>
         <nav>
-            <ul class="topnav">
-                <li><a href="#top">Home</a></li>
-                <li><a href="#About_me">About me</a></li>
-                <li><a href="#Hobbies">Hobbbies</a></li>
-                <li><a href="#Achievements">Achievements</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-        </nav>
+        <ul class="topnav">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#About_me">About me</a></li>
+          <li><a href="#Hobbies">Hobbies</a></li>
+          <li><a href="#Achievements">Achievements</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- block1 -->
     <div class="block1">
-        <div class="proimg" id="over">
-            <img class="is" src="images/profile_img.png" alt="image">
+      <div class="proimg" id="over">
+        <img class="is" src="images/profile_img.png" alt="image" />
+      </div>
+      <div class="b11">
+        <div class="name">
+          <h1>Sarthi<br />Kalathiya</h1>
+          <br />
+          <p>I'm a <span id="sequence"></span></p>
         </div>
-        <div class="b11">
-            <div class="name">
-                <h1>Sarthi<br>kalathiya</h1><br>
-                <p>I'm a <span id="sequence"></span></p>
-            </div>
-
-            <div class="email">
-                <a href="mailto:sarthikalathiya@gmail.com" target="_blank">Email me</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- block2 -->
-    <div class="block2" id="About_me">
-        <h2><span>About me</span></h2>
-        <div class="about">
-            <ul>
-                <li> <strong>Birthday:</strong> <span>12 May 2004</span></li>
-                <li> <strong>Degree:</strong> <span>B.Tech</span></li>
-            </ul>
-        </div>
-        <div class="about">
-            <ul>
-                <li> <strong>Website:</strong> <span>www.sarthikalathiya.com</span></li>
-                <li> <strong>Email:</strong> <span><a href="mailto:sarthikalathiya@gmail.com"
-                            target="_blank">sarthikalathiya@gmail.com</a></span></li>
-            </ul>
-        </div>
-        <div class="linkedin">
-            <a href="https://www.linkedin.com/in/sarthi-kalathiya-68502a233" target="_blank">Linkedin</a>
+        
+        <div class="email">
+            <a href="mailto:sarthikalathiya@gmail.com" target="_blank"
+            >Email me</a
+            >
         </div>
     </div>
-
-    <!-- block6 -->
-    <div class="block6">
-        <h2><span>Academics</span></h2>
-        <div class="in">
-            <p class="degree">Computer engneering</p>
-            <span>2025 B.tech. in English<br>Dharmsinh Desai University / 2021-2025</span>
-        </div>
-        <div class="in">
-            <p class="degree">12th</p>
-            <span>Sanskardeep Vidhya Sankul / 2021</span>
-        </div>
-        <div class="in">
-            <p class="degree">10th</p>
-            <span>Shubhlaxmi Vidhyalay / 2019</span>
-        </div>
+</div>
+<!-- block2 -->
+<div class="block2" id="About_me">
+      <h2><span>About me</span></h2>
+      <div class="about">
+        <ul>
+            <li><strong>Birthday:</strong> <span>12 May 2004</span></li>
+          <li>
+              <strong>Degree:</strong> <span>B.Tech Computer Engineering</span>
+            </li>
+        </ul>
     </div>
+      <div class="about">
+          <ul>
+          <li>
+              <strong>Website:</strong> <span>www.sarthikalathiya.com</span>
+          </li>
+          <li>
+            <strong>Email:</strong>
+            <span
+              ><a href="mailto:sarthikalathiya@gmail.com" target="_blank"
+              >sarthikalathiya@gmail.com</a
+              ></span
+              >
+            </li>
+        </ul>
+      </div>
+      <div class="linkedin">
+        <a
+        href="https://www.linkedin.com/in/sarthi-kalathiya-68502a233"
+        target="_blank"
+        >LinkedIn</a
+        >
+    </div>
+</div>
 
+<!-- block6 -->
+<div class="block6">
+      <h2><span>Academics</span></h2>
+      <div class="in">
+          <p class="degree">B.Tech in Computer Engineering</p>
+          <span>Dharmsinh Desai University, Expected 2025<br />CGPA: 9.39</span>
+        </div>
+        <div class="in">
+        <p class="degree">12th Grade</p>
+        <span
+          >Sanskardeep Vidhyasankul, 2021<br />Percentage: 94.67% (PCM)</span
+        >
+    </div>
+      <div class="in">
+          <p class="degree">10th Grade</p>
+        <span>Shubhlaxmi Vidhyalaya, 2019<br />Percentage: 91.16%</span>
+    </div>
+    </div>
+    
     <!-- block3 -->
     <div class="block3" id="Hobbies">
         <h2><span>Hobbies</span></h2>
         <div class="upper">
             <div class="first">
                 <h3><span>Writing</span></h3>
-                <p>Communication is the heart of every organisation. Writing novels or publishing scientific papers give
-                    a clear of your written communication skills.</p>
-            </div>
-            <div class="second">
-                <h3><span>Photography</span></h3>
-                <p>Photography is so much more than just taking pictures. It develops conceptual skills and technical
-                    expertise, but also how to collaborate with others. </p>
-            </div>
+                <p>
+                    Communication is the heart of every organisation. Writing novels or
+            publishing scientific papers give a clear picture of your written
+            communication skills.
+        </p>
         </div>
-        <div class="upper">
-            <div class="first">
-                <h3><span>Yoga</span></h3>
-                <p>You may say yoga is a type of sport, but it’s much more than stretching. It involves
-                    concentrating
-                    on breathing and a great way to relax your mind.</p>
-            </div>
-            <div class="second">
-                <h3><span>Reading</span></h3>
-                <p>Reading shows you follow your passions. It
-                    also
-                    prevents decline and reduces stress. And helps maintain work-life balance.</p>
-            </div>
+        <div class="second">
+            <h3><span>Photography</span></h3>
+            <p>
+                Photography is so much more than just taking pictures. It develops
+                conceptual skills and technical expertise, and also teaches
+                collaboration with others.
+            </p>
         </div>
+    </div>
+      <div class="upper">
+        <div class="first">
+            <h3><span>Yoga</span></h3>
+            <p>
+            Yoga involves concentrating on breathing and is a great way to relax
+            your mind, making it much more than just stretching.
+          </p>
+        </div>
+        <div class="second">
+          <h3><span>Reading</span></h3>
+          <p>
+              Reading shows you follow your passions. It prevents decline, reduces
+              stress, and helps maintain a work-life balance.
+            </p>
+        </div>
+      </div>
     </div>
 
     <!-- block5 -->
     <div class="block5" id="Achievements">
-        <h2><span>Achievements</span></h2>
-        <p>global rank 558 in codechef contest.</p>
-        <p>5 &#9733 in c and c++ on hackerrank</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, tempora.</p>
-        <div class="hackerrank">
-            <a href="https://www.hackerrank.com/sarthikalathiya" target="_blank">Hackerrank</a>
+      <h2><span>Achievements</span></h2>
+      <p>4-star (1817) CodeChef, 25th Rank in CodeChef starters 137 Div-2</p>
+      <div class="hackerrank">
+          <a href="https://www.hackerrank.com/sarthikalathiya" target="_blank"
+          >Hackerrank</a
+          >
         </div>
     </div>
-
+    
     <!-- block7 -->
-    <div class="block7">
-        <h2><span>Startup ideas</span></h2>
-        <div class="i1">
-            <h3><span>Self learning robots</span></h3>
-            <p>voluptatem corporis beatae nisi magnam soluta dolorum ut error tempore in officia totam dignissimos
-                nulla, quis ipsam iusto ex amet adipisci, labore provident? Rerum necessitatibus porro deleniti. Hic
-                dolor alias provident fuga facilis quidem, similique at nostrum cupiditate nesciunt ab odio amet beatae
-                accusamus.</p>
-        </div>
-        <div class="i1">
-            <h3><span>Drop-Shipping</span></h3>
-            <p>dignissimos, doloremque libero fugiat repellat eaque tempora quod, alias blanditiis sequi! Quae tempora
-                possimus sit necessitatibus doloremque! Similique tempore distinctio eveniet minus ex asperiores sit
-                suscipit in! Porro sequi odio suscipit, fugit atque quaerat, inventore sint laboriosam blanditiis
-                distinctio vero enim repellat.</p>
-        </div>
+    <div class="block7" id="projects">
+        <h2><span>Projects</span></h2>
+        <div class="project">
+            <h3><span>Task Manager</span></h3>
+        <p>
+            Using Java Spring Boot-MVC, Hibernate: A Task Manager with
+            authentication and authorization that lets users add (CRUD) tasks with
+            deadlines and also notifies about deadlines.
+        </p>
+        <a
+        href="https://github.com/sarthi-kalathiya/WorkManager"
+        target="_blank"
+        >GitHub Repository</a
+        >
     </div>
-
+    <div class="project">
+        <h3><span>Online Grocery Store</span></h3>
+        <p>
+          Using Python Django, W3 layouts: An online grocery store where users
+          can buy products with payment and order status functionality.
+        </p>
+        <a href="https://github.com/sarthi-kalathiya/ecommerce" target="_blank"
+        >GitHub Repository</a
+        >
+    </div>
+    <div class="project">
+        <h3><span>Spotify Clone</span></h3>
+        <p>
+            Using MERN stack, Tailwind CSS, JWT, MongoDB, Cloudinary API: A clone
+            of Spotify with authentication, artists can upload songs, make own
+            playlists, and search songs.
+        </p>
+        <a
+        href="https://github.com/sarthi-kalathiya/MusiVerse-Frontend"
+          target="_blank"
+          >GitHub Repository</a
+          >
+        </div>
+      <div class="project">
+          <h3><span>Online Examination System</span></h3>
+          <p>
+              Using C#, ASP.NET Framework, JavaScript, CSS: A web application where
+          admins can create subjects, add questions, and manage exams, while
+          students can create profiles, search for exams, and monitor their
+          performance.
+        </p>
+        <a
+        href="https://github.com/sarthi-kalathiya/Online_Exam_System_.NET-framework"
+        target="_blank"
+        >GitHub Repository</a
+        >
+    </div>
+    <div class="project">
+        <h3><span>ImageIt</span></h3>
+        <p>
+            Using Dart, Flutter, Firebase, Flask, Machine Learning, Python: A
+          mobile application with Google Auth, where images can be uploaded,
+          text can be extracted, and captions can be generated using an LSTM
+          model. Previous history is saved in Firebase.
+        </p>
+        <a href="https://github.com/sarthi-kalathiya/imageit" target="_blank"
+        >GitHub Repository</a
+        >
+    </div>
+      <div class="project">
+        <h3><span>Taskify</span></h3>
+        <p>
+          Using Dart, Flutter, Firebase, Google Auth: A mobile application with
+          basic note-taking features, performing CRUD operations on tasks, and
+          viewing statistical data of tasks.
+        </p>
+        <a
+        href="https://github.com/sarthi-kalathiya/Taskify-flutter-app"
+          target="_blank"
+          >GitHub Repository</a
+          >
+        </div>
+        <div class="project">
+            <h3><span>Library Management System</span></h3>
+            <p>
+                Using C#, ASP.NET Core, HTML, JavaScript, CSS: A web application
+                designed to manage library resources, including students, books,
+                authors, and book borrowings, with basic CRUD operations.
+            </p>
+            <a
+            href="https://github.com/sarthi-kalathiya/Library_Management_system-.Net-Core"
+            target="_blank"
+            >GitHub Repository</a
+        >
+    </div>
+    </div>
+    
     <!-- block8 -->
     <div class="block8" id="Contact">
         <h2>Contact</h2>
-        <p class="start-qt">Ready to take the first step on your journey to success? Reach out and we can start
-            discussing
-            how to change
-            your life.</p>
-        <div class="c2">
-
-            <div class="cont_form">
-
-                <form>
-                    <fieldset>
-                        <div class="namec">
-                            <input type="text" name="name" class="name" id="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="emailc">
-                            <input type="email" class="email" name="email" id="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="subjectc">
-                            <input type="text" class="subject" name="subject" id="subject" placeholder="Subject"
-                                required>
-                        </div>
-                        <div class="messagec">
-                            <textarea class="message" name="message" placeholder="Message" required></textarea>
-                        </div>
-                        <div class="submitc">
-                            <input type="submit" class="submit" id="submit" value="Send message">
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
-            <div class="quote">
-                <h3><span>Get in Touch</span></h3>
-                <p>possimus fugit deserunt. Dolor sit accusantium architecto in hic, ipsum quos natus quasi officia
-                    molestiae optio reiciendis magni aspernatur facere eligendi. Est, perferendis dicta, officia,
-                    voluptate nobis asperiores earum illo cum temporibus voluptatibus illum omnis. Deserunt consequatur,
-                    assumenda eligendi doloremque sint ipsam corporis fugit saepe excepturi quae accusamus itaque
-                    tempore at!</p>
-            </div>
-        </div>
+        <p class="start-qt">
+            Ready to take the first step on your journey to success? Reach out and
+            we can start discussing how to change your life.
+        </p>
+      <div class="c2">
+          <div class="cont_form">
+              <form
+              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfK-ev6mCMR1XvmBINDX9P7PxCTkd9sf4Xy-psjI2hSV_ISBA/formResponse"
+              id="gform"
+              >
+              <fieldset>
+                  <div class="namec">
+                      <input
+                      type="text"
+                      name="entry.273277613"
+                      class="name"
+                      id="name"
+                      placeholder="Your Name"
+                      required
+                      />
+                    </div>
+              <div class="emailc">
+                  <input
+                  type="email"
+                  class="email"
+                  name="entry.595956977"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                  />
+                </div>
+                <div class="subjectc">
+                    <input
+                    type="text"
+                    class="subject"
+                    name="entry.1513199765"
+                  id="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="messagec">
+                <textarea
+                class="message"
+                name="entry.807251186"
+                placeholder="Message"
+                  required
+                  ></textarea>
+                </div>
+                <div class="submitc">
+                    <input
+                  type="submit"
+                  name=""
+                  class="button"
+                  id="submit"
+                  value="Send message"
+                  />
+                </div>
+            </fieldset>
+        </form>
     </div>
+    <div class="quote">
+          <h3><span>Get in Touch</span></h3>
+          <p>
+            If you have any questions or would like to discuss potential
+            opportunities, feel free to reach out!
+        </p>
+    </div>
+      </div>
+    </div>
+    <script>
+      $("#gform").submit(function (event) {
+        console.log("hi");
+        event.preventDefault();
+        var extraData = {};
+        $("#gform").ajaxSubmit({
+          data: extraData,
+          dataType: "jsonp", // This won't really work. It's just to use a GET instead of a POST to allow cookies from different domain.
+          error: function () {
+            // Submit of form should be successful but JSONP callback will fail because Google Forms
+            // does not support it, so this is handled as a failure.
+            alert("Form Submitted. Thanks.");
+            // You can also redirect the user to a custom thank-you page:
+            // window.location = 'http://www.mydomain.com/thankyoupage.html'
+          },
+        });
+      });
+    </script>
 </body>
-
 </html>
